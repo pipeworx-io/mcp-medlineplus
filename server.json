@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/medlineplus",
   "title": "Medlineplus",
   "description": "MedlinePlus MCP — NIH consumer health info",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/medlineplus",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-medlineplus",
