@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-medlineplus",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "MedlinePlus MCP — NIH consumer health info",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-5f8b2ca36ca9bfe44ab5b2f1268a4fbc113ad27bdfa01a8a20ae950b28bd9975",
-    "sourceCommit": "adb69d997f82a62e8e22b594488c7d04a227db35"
+    "sourceHash": "v1-d52be91ad0175b66aea9f8c67de54a39bfa0569331f2d8bd399cde50e4970e67",
+    "sourceCommit": "6182c4cfebddb94950e060b5d2fca18f18ad1aca"
   }
 }
