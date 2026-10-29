@@ -1,0 +1,54 @@
+[
+  {
+    "name": "connect",
+    "description": "Map a clinical code (ICD-10-CM, SNOMED CT, RxCUI, LOINC, NDC, MeSH, HGNC) to MedlinePlus consumer-health topics.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "code": {
+          "type": "string",
+          "description": "Code value (e.g. \"J00\" for ICD-10-CM acute nasopharyngitis)"
+        },
+        "code_system": {
+          "type": "string",
+          "description": "Short name or OID — ICD-10-CM | SNOMED | RxNorm | LOINC | NDC | MeSH | HGNC | ICD-9-CM"
+        },
+        "lang": {
+          "type": "string",
+          "description": "en (default) | es"
+        }
+      },
+      "required": [
+        "code",
+        "code_system"
+      ]
+    }
+  },
+  {
+    "name": "search",
+    "description": "Free-text search across MedlinePlus topics (or related NLM databases).",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string"
+        },
+        "db": {
+          "type": "string",
+          "description": "healthTopics (default) | healthTopicsSpanish | drug | herb | meshhd | genetic"
+        },
+        "limit": {
+          "type": "number",
+          "description": "1-100 (default 10)"
+        },
+        "retstart": {
+          "type": "number",
+          "description": "0-based offset"
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  }
+]
