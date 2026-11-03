@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-medlineplus",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "MedlinePlus MCP — NIH consumer health info",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "medlineplus",
     "gatewaySlug": "medlineplus",
-    "sourceHash": "v1-4225d131b4606a8c598d27e861b5833ac0fb5bbd7d7b1ab4577114bf4dda97dc",
-    "sourceCommit": "5c89d6abb778d45da5d92002eb251978622bedf9"
+    "sourceHash": "v1-2b673ec3bfeb26f60b7d4b5a911c5f38f520d23692689c1ffa31e4966772d01c",
+    "sourceCommit": "56cf550e46fed96c0101a3877ccaf8357eecf016"
   }
 }
